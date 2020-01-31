@@ -71,6 +71,8 @@ order: 2
 #### 全国行政区划GeoJON 支持省市县维度 
 [geojson, svg下载](http://datav.aliyun.com/tools/atlas/#&lat=33.50475906922609&lng=104.32617187499999&zoom=4)
 
+[全国各省份市级别GeoJSON数据下载](http://image.thinkgis.cn/city_json.zip)
+
 #### HighCharts 全球行政区划数据集
 
 [https://img.hcharts.cn/mapdata/](https://img.hcharts.cn/mapdata/)
