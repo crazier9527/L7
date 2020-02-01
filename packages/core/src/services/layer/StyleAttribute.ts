@@ -24,7 +24,7 @@ export default class StyleAttribute implements IStyleAttribute {
     callback?: (...args: any[]) => [];
     scalers?: Array<{
       field: string;
-      func: unknown;
+      func: unknown; // d3 scale
     }>;
   };
   public descriptor: IVertexAttributeDescriptor;
@@ -58,7 +58,7 @@ export default class StyleAttribute implements IStyleAttribute {
      */
     if (this.scale?.callback) {
       // 使用用户返回的值处理
-      const ret = this.scale?.callback(params);
+      const ret = this.scale?.callback(...params);
       if (!isNil(ret)) {
         return [ret];
       }
